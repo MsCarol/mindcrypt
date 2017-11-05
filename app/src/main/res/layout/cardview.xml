@@ -1,0 +1,99 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:layout_margin="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_alignParentTop="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bitcoins" />
+
+        <TextView
+            android:id="@+id/bit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/thumbnail"
+            android:maxLines="3"
+            android:padding="8dp"
+            android:text="Bitcoins"
+            android:textColor="#222"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <!--TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="3"
+            android:padding="8dp"
+            android:text="Find the rate"
+            android:textColor="#666"
+            android:textSize="14dp" /-->
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="13dp" />
+
+        <EditText
+            android:id="@+id/amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter amount"
+            android:inputType="number"
+            android:text=""
+            android:layout_alignBottom="@+id/rate"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:id="@+id/rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/spinner"
+            android:layout_marginBottom="12dp"
+            android:text="Value" />
+
+        <TextView
+            android:id="@+id/current_rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/amount"
+            android:layout_alignLeft="@+id/amount"
+            android:layout_alignStart="@+id/amount"
+            android:text="CurrentRate" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/addEthereum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_marginTop="15dp"
+            android:clickable="true"
+            app:fabSize="mini"
+            app:srcCompat="@drawable/ethereum" />
+
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>
+

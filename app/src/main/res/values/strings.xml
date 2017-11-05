@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MindCrypt</string>
+
+    <string-array name="currencies">
+        <item>Algeria Dinar</item>
+        <item>Angolan Kwanza</item>
+        <item>Burkina Faso Franc</item>
+        <item>Benin Franc</item>
+        <item>Burundi Franc</item>
+        <item>Egyptian Pound</item>
+        <item>Ethiopian Birr</item>
+        <item>Ghanaian Cedi</item>
+        <item>Kenya Shilling</item>
+        <item>Mauritian Rupee</item>
+        <item>South African Rand</item>
+        <item>Ugandan Shilling</item>
+        <item>Nigerian Naira</item>
+        <item>Namibian Dollar</item>
+        <item>Moroccan Dirham</item>
+        <item>Rwandan Franc</item>
+        <item>Botswanan Pula</item>
+        <item>Tanzanian Shilling</item>
+        <item>Zambian Kwacha</item>
+        <item>Tunisian Dinar</item>
+    </string-array>
+</resources>
