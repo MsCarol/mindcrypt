@@ -1,3 +1,3 @@
 # mindcrypt
-Sample android app to check bitcoin and ethereum against other currencies
-works okay(2%)
+Sample android app that attempts to check bitcoin and ethereum against other currencies
+
